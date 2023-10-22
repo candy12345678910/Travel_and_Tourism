@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+/* Universal Padding*/
+.uni-padding{
+    padding:0% 7%;
+}
+/* Top Bar */
+.top-bar{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    overflow: auto;
+}
+.contact{
+    float:left;
+    font-size: 14px;
+}
+.social{
+    float:right;
+    font-size: 14px;
+}
+.social i{
+    padding-left: 5px;
+}
+/* Background Image */
+.background{
+    background-image: url("../img/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Head (includein logo and list) */
+.head{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* overflow: auto; */
+}
+/* LOGO */
+.logo img{
+    height: auto;
+    width: 160px;
+}
+.logo{
+    float: left;
+}
+/* List */
+.list{
+    float: right;
+}
+.list ul li{
+    display: inline-block;
+    padding-left: 35px;
+    /* padding-top: 0px; */
+}
+.list a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.login{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.list a:hover{
+    border:solid 2px;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: rgb(25, 99, 77);
+    border-color: rgb(25, 99, 77);
+    color:white;
+    transition: .1s;
+}
+/* Search Bar */
+.search-bar{
+    padding-left: 0px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+/* search bar heading */
+.search-bar h1{
+    font-weight: bold;
+}
+.search-bar h5{
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+/* search area*/
+/* .search{
+    width: 50%;
+    height: 30%;
+    border-radius: 50px;
+} */
+.search_input:hover{
+    outline: 3px solid rgb(25, 99, 77);
+    transition: .1s;
+}
+.search_input{
+    /* flex:1; */
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 8%;
+    border-radius: 50px;
+}
+.search_button{
+    background:rgb(25, 99, 77);
+    padding: 1% 2%;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color:white;
+    border-radius: 30px;
+}
+.search_button:hover{
+    outline: 1px solid rgb(25, 99, 77);
+    color: rgb(25, 99, 77);
+    background-color: white;
+    transition: .1s;
+}
